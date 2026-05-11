@@ -157,3 +157,12 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+document.querySelector('.float-btn').addEventListener('click', function () {
+  this.innerHTML = "⬇ Downloading...";
+  
+  setTimeout(() => {
+    this.innerHTML = "✔ Downloaded";
+  }, 1500);
+});
