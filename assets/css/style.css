@@ -47,7 +47,7 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
-
+  --bittersweet-blue: hsl(0, 100%, 4%);
   /**
    * typography
    */
@@ -301,18 +301,18 @@ main {
 .avatar-box img{
     width: 25vw;
     border-radius: 10%;
-    box-shadow: 0 0 35px var(--main-color);
+    box-shadow: 0 0 35px var(--bittersweet-blue);
     cursor: pointer;
     animation: floatImage 5s ease-in-out infinite;
     transition: 0.1s ease;
-     box-shadow: 0 0 10px var(--vegas-gold),
-                0 0 10px var(--vegas-gold),
-                0 0 10px var(--vegas-gold);
+     box-shadow: 0 0 10px var(--bittersweet-blue),
+                0 0 10px var(--bittersweet-blue),
+                0 0 10px var(--bittersweet-blue);
  }
  .avatar-box img:hover{
-    box-shadow: 0 0 20px var(--vegas-gold),
-                0 0 30px var(--vegas-gold),
-                0 0 40px var(--vegas-gold);
+    box-shadow: 0 0 20px var(--bittersweet-blue),
+                0 0 30px var(--bittersweet-blue),
+                0 0 40px var(--bittersweet-blue);
                 
  }
 
